@@ -1,12 +1,12 @@
 class Csb < Formula
   desc "Sandboxed Claude Code on Apple container"
   homepage "https://github.com/shareefhadid/csb"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   # Apple 'container' is Apple Silicon + macOS 26 only, so is this.
-  url "https://github.com/shareefhadid/csb/releases/download/v0.1.0/csb-aarch64-apple-darwin.tar.gz"
-  sha256 "f288d122f91615b6758baf72dbac0b2f78822d82bfc9c5c9637a6b18964ae080"
+  url "https://github.com/shareefhadid/csb/releases/download/v0.2.0/csb-aarch64-apple-darwin.tar.gz"
+  sha256 "3b8331f4aa75c949368bc0bcd9bfce38bf13732f914bed6a5c71a149cd0be59a"
 
   def install
     bin.install "csb"
